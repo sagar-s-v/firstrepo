@@ -34,3 +34,9 @@ for i in range(len(car)): # This will iterate through the list using the index.
     print(car[i]) # This will print each element in the list using its index.
 car.pop(0) # This will remove the first element from the list.
 print(car) # This will print the updated list with the first element removed.
+del car[:]  # This will delete all elements from the list, making it empty.
+car = ['audi', 'bmw', 'ford', 'tesla']  # Reinitialize the list.
+car_str = ' - '.join(car)  # Convert the list to a string again.
+print(car_str)  # This will print the string representation of the list again.
+newlist = car_str.split(' - ')  # Split the string back into a list.
+print(newlist)  # This will print the new list created from the string.
