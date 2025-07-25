@@ -30,3 +30,7 @@ print(car) # This will print the updated list with the element at index 1 remove
 del car[1] # This will delete the element at index 1.
 for x in car: # This will iterate through each element in the list.
     print(x) # This will print each element in the list.
+for i in range(len(car)): # This will iterate through the list using the index.
+    print(car[i]) # This will print each element in the list using its index.
+car.pop(0) # This will remove the first element from the list.
+print(car) # This will print the updated list with the first element removed.
